@@ -1,0 +1,93 @@
+body {
+  font-family: Arial;
+  background-color: #e8f5e9;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  max-width: 350px;
+  margin: 70px auto 0 auto;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.container2 {
+  background: white;
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.calendario {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 7px;
+  margin-top: 20px;
+}
+
+.semana {
+  font-weight: bold;
+}
+
+.dia {
+  background: #f1f8e9;
+  padding: 9px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.marcado::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: green;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background: #81c784;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background: #66bb6a;
+}
+
+.botoes-topo {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0 10px;
+  box-sizing: border-box;
+}

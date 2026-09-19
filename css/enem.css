@@ -1,0 +1,39 @@
+body {
+  background-color: #5cab4f9b;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.materia {
+  background-color: white;
+  margin: 18px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 17px;
+}
+
+summary {
+  font-size: 23px;
+  color: black;
+}
+
+.professores summary {
+  font-family: Verdana, sans-serif;
+}
+
+.professores button {
+  padding: 7px;
+  background-color: #8ffe89;
+  border: none;
+  border-radius: 12px;
+}
+
+button {
+  border: none;
+  border-radius: 17px;
+  padding: 7px;
+}

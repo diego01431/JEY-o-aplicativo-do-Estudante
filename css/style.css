@@ -1,0 +1,26 @@
+body{
+     background-color:#d0f0c0;
+     color:red;
+     text-align:center;
+  }
+  
+  h1{
+    color:black;
+    font-family:"Georgia";
+    margin-top: 180px;
+    font-size:50px;
+  }
+  
+  h2{
+    color:black;
+    font-family:"Georgia";
+    margin-top:80px;
+  }
+  
+  button{
+    font-size:18px;
+    padding:12px 24px;
+    color:black;
+    border:none;
+    border-radius:10px;
+  }
